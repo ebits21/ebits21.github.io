@@ -1,0 +1,79 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+    background-color: blue;
+
+}
+
+@keyframes linkFade{
+    from{background-color: #821323;}
+    to{background-color: #27718F;}
+}
+
+@keyframes shadowFade{
+    from{box-shadow: 5px 5px 5px #888888;}
+    to{box-shadow: none;}
+}
+
+.header, .ipadnav, ul{
+    margin: 0px auto;
+}
+
+body{
+    background: #E8E8E8 url(http://www.hearingclinic.ca/images/body-bg.jpg) no-repeat scroll;
+    background-position-x: center;
+    background-position-y: top;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    width: 980px;
+    background-color: transparent;
+    border-bottom: none;
+    padding: 0px;
+}
+
+.ipadnav{
+    width: 980px;
+    padding: 20px 0px 50px 0px;
+    overflow: auto;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    overflow: auto;
+    border: none;
+}
+
+a {
+    display: block;
+    background-color: #821323;
+    width: 200px;
+    height: 70px;
+    margin: 20px 0px 10px 49px;
+    padding: 30px;
+    float: left;
+    position: relative;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    color: #E5F4FF;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+a:hover, a:focus{
+    animation-name: linkFade;
+    animation-duration: 0.5s;
+    background-color: #27718F;
+}
+
+a:active{
+    background-color: #27718F;
+    animation-name: shadowFade;
+    animation-duration: 0.1s;
+    box-shadow: none;
+} 
+
