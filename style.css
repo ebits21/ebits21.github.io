@@ -64,7 +64,9 @@ a {
     box-shadow: 5px 5px 5px #888888;
 }
 
-a:hover, a:focus{
+a:link, a:visited{}
+
+a:hover{
     animation-name: linkFade;
     animation-duration: 0.5s;
     background-color: #27718F;
