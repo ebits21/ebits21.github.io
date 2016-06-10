@@ -3,11 +3,6 @@
     to{background-color: #27718F;}
 }
 
-@keyframes shadowFade{
-    from{box-shadow: 5px 5px 5px #888888;}
-    to{box-shadow: none;}
-}
-
 .header, .ipadnav, ul{
     margin: 0px auto;
 }
@@ -69,8 +64,5 @@ a:hover{
 
 a:active{
     background-color: #27718F;
-    animation-name: shadowFade;
-    animation-duration: 0.1s;
-    box-shadow: none;
 } 
 
