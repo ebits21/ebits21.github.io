@@ -42,6 +42,8 @@ article {
 article p{
     color: #666;
     margin: 10px;
+    line-height: 18.2px;
+    font: 13px Arial, Verdana, Helvetica;
 }
 article h1{
     display: block;
