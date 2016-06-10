@@ -29,6 +29,15 @@ body{
     border: none;
 }
 
+article {
+    width: 980px;
+    padding: 20px 0px 0px 0px;
+    overflow: auto;
+    border: none;
+    background-color:rgba(255,255,255,.2);
+}
+
+}
 ul {
     list-style: none;
     padding: 0px;
@@ -36,7 +45,7 @@ ul {
     border: none;
 }
 
-a {
+.ipadnav a {
     display: block;
     background-color: #821323;
     width: 200px;
@@ -54,15 +63,15 @@ a {
     box-shadow: 5px 5px 5px #888888;
 }
 
-a:link, a:visited{}
+.ipadnav a:link, .ipadnav a:visited{}
 
-a:hover{
+.ipadnav a:hover{
     animation-name: linkFade;
     animation-duration: 0.5s;
     background-color: #27718F;
 }
 
-a:active{
+.ipadnav a:active{
     background-color: #27718F;
 } 
 
