@@ -3,7 +3,7 @@
     to{background-color: #27718F;}
 }
 
-.header, .ipadnav, ul{
+.header, .ipadnav, ul, article{
     margin: 0px auto;
 }
 
@@ -34,7 +34,7 @@ article {
     padding: 20px 0px 0px 0px;
     overflow: auto;
     border: none;
-    background-color:rgba(255,255,255,.2);
+    background-color:rgba(255,255,255,.5);
 }
 
 }
