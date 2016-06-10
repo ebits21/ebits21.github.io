@@ -35,7 +35,7 @@ article {
     margin: 40px auto;
     overflow: auto;
     background-color:rgba(255,255,255,.3);
-    border: 1px solid rgba(200,200,200,0.5);
+    border: 1px solid rgb(255,255,255);
     line-height: 2;
 }
 
@@ -73,7 +73,7 @@ article h2{
     background: url(http://www.hearingclinic.ca/images/separator.jpg);
     margin: 0px;
     padding: 0px;
-    color=rgba(0,0,0,0);
+    color:rgba(0,0,0,0);
     display: block;
 }
 
