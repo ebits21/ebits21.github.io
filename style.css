@@ -37,12 +37,12 @@ article {
     border: none;
     background-color:rgba(255,255,255,.5);
     border: 1px solid black;
+     line-height: 2;
 }
 
 article p{
     color: #666;
     margin: 10px;
-    line-height: 200%;
     font: 13px Arial, Verdana, Helvetica;
 }
 article h1{
