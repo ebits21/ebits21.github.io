@@ -1,8 +1,3 @@
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
-    background-color: blue;
-
-}
-
 @keyframes linkFade{
     from{background-color: #821323;}
     to{background-color: #27718F;}
@@ -30,6 +25,7 @@ body{
     background-color: transparent;
     border-bottom: none;
     padding: 0px;
+    position: fixed;
 }
 
 .ipadnav{
