@@ -73,6 +73,7 @@ div .divider {
     background: url(http://www.hearingclinic.ca/images/separator.jpg);
     margin: 0px;
     padding: 0px;
+    display: block;
 }
 
 ul {
