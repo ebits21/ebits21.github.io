@@ -31,7 +31,7 @@ body{
 
 article {
     width: 750px;
-    padding: 20px 30px 40px;
+    padding: 20px 30px 50px 30px;
     margin: 40px auto;
     overflow: auto;
     background-color:rgb(255,255,255);
