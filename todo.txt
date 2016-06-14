@@ -1,0 +1,6 @@
+TODO:
+*More efficient recognition of transfers and tagging.
+*payment to visa is really a transfer, must change.
+*save and read master.csv with a header, rewrite save functions.
+*recognize and categorize rent and monthly job pay.
+*create and improve plots.
