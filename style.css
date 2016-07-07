@@ -63,6 +63,10 @@ article h2{
     margin: 0px;
 }
 
+.right {
+    float: right;
+}
+
 .divider {
     width: 700px;
     height: 43px;
