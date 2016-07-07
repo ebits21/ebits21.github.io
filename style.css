@@ -22,6 +22,12 @@ body{
     padding: 0px;
 }
 
+.back{
+    width: 750px;
+    background-color: #821323;
+    margin: 10px auto;
+}
+
 .ipadnav{
     width: 980px;
     padding: 20px 0px 50px 0px;
