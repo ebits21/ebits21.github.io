@@ -55,7 +55,7 @@ body{
 article {
     width: 750px;
     padding: 20px 30px 50px 30px;
-    margin: 40px auto;
+    margin: 0px auto 40px;
     overflow: auto;
     background-color:rgb(255,255,255);
     border: 1px solid rgba(150,150,150,0.5);
