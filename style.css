@@ -22,10 +22,16 @@ body{
     padding: 0px;
 }
 
-.back{
+.back a{
+    display: block;
     width: 750px;
     background-color: #821323;
     margin: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    color: #E5F4FF;
 }
 
 .ipadnav{
