@@ -27,12 +27,23 @@ body{
     width: 750px;
     background-color: #821323;
     margin: 10px auto;
+    padding: 10px;
     text-decoration: none;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 24px;
     color: #E5F4FF;
 }
+
+.back a:hover{
+    animation-name: linkFade;
+    animation-duration: 0.5s;
+    background-color: #27718F;
+}
+
+.back a:active{
+    background-color: #27718F;
+} 
 
 .ipadnav{
     width: 980px;
