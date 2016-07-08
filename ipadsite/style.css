@@ -12,6 +12,7 @@ body{
     background-position: center top;
     padding: 0px;
     margin: 0px;
+    font-size: 100%;
 }
 
 .header{
@@ -19,6 +20,14 @@ body{
     background-color: transparent;
     border-bottom: none;
     padding: 0px;
+}
+
+blockquote {
+    color: #666;
+    background-color: #999;
+    margin: 20px;
+    padding: 10px;
+    font: italic 18px Arial, Verdana, Helvetica;
 }
 
 .back a{
