@@ -105,6 +105,11 @@ article h2{
     display: block;
 }
 
+.address{
+    width: 50%;
+    float: left;
+}
+
 .ipadnav{
     width: 980px;
     padding: 20px 0px 50px 0px;
