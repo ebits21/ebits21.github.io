@@ -24,10 +24,11 @@ body{
 
 blockquote {
     color: #666;
-    background-color: #999;
+    background-color: rgb(220,220,220);
     margin: 20px;
     padding: 10px;
     font: italic 18px Arial, Verdana, Helvetica;
+    border: 1px solid rgba(150,150,150,0.5);
 }
 
 .back a{
