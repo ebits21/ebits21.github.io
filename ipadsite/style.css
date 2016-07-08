@@ -55,13 +55,6 @@ blockquote {
     background-color: #27718F;
 } 
 
-.ipadnav{
-    width: 980px;
-    padding: 20px 0px 50px 0px;
-    overflow: auto;
-    border: none;
-}
-
 article {
     width: 750px;
     padding: 20px 30px 50px 30px;
@@ -77,6 +70,7 @@ article p{
     font: 18px Arial, Verdana, Helvetica;
     line-height: 170%;
 }
+
 article h1{
     display: block;
     font: normal 36px Georgia, "Times New Roman", Times, serif;
@@ -109,6 +103,13 @@ article h2{
     padding: 0px;
     color:rgba(0,0,0,0);
     display: block;
+}
+
+.ipadnav{
+    width: 980px;
+    padding: 20px 0px 50px 0px;
+    overflow: auto;
+    border: none;
 }
 
 .ipadnav ul {
