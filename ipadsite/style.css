@@ -25,7 +25,7 @@ body{
 blockquote {
     color: #666;
     background-color: rgb(230,230,230);
-    margin: 20px;
+    margin: 20px none;
     padding: 20px;
     font: italic 16px Arial, Verdana, Helvetica;
     border: 1px solid rgba(150,150,150,0.5);
