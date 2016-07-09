@@ -106,7 +106,7 @@ article h2{
     width: 700px;
     height: 43px;
     background: url(http://www.hearingclinic.ca/images/separator.jpg);
-    margin: 10px auto;
+    margin: 10px auto 30px;
     color: rgba(0,0,0,0);
     display: block;
 }
