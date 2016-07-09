@@ -134,7 +134,8 @@ article h2{
 }
 
 .ipadnav a {
-    background-color: #821323;
+    background-color: rgb(130,19,35);
+    background: linear-gradient(to bottom right,rgb(179,26,48),rgb(130,19,35));
     width: 200px;
     height: 70px;
     margin: 34px 0px 30px 49px;
@@ -147,7 +148,7 @@ article h2{
     border: 1px solid black;
     border-radius: 3px;
     box-shadow: 5px 5px 5px #888888;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .ipadnav a:hover{
