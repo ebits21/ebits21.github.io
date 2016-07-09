@@ -80,7 +80,7 @@ p{
 
 article h1{
     display: block;
-    font: normal 36px Georgia, "Times New Roman", Times, serif;
+    font: normal 36px 'Oswald',sans-serif;
     color: #821323;
     letter-spacing: -0.05em;
     line-height: 100%;
