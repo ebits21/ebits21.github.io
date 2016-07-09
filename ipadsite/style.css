@@ -36,7 +36,7 @@ blockquote {
     padding: 10px;
     margin: 0 -30px;
     background-color: rgb(220,220,220);
-    background: linear-gradient(rgba(220,220,220,0),rgba(220,220,220,0.5));
+    background: linear-gradient(to bottom right,rgba(220,220,220,0.1),rgba(220,220,220,0.5));
 }
 
 article {
@@ -58,7 +58,7 @@ p{
 article h1{
     display: block;
     font: normal 40px Georgia, "Times New Roman", Times, serif;
-    text-shadow: 1px 1px 1px #999;
+    text-shadow: 1px 1px 1px #CCC;
     color: #821323;
     letter-spacing: -0.05em;
     line-height: 100%;
