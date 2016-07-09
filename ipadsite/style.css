@@ -36,31 +36,8 @@ blockquote {
     padding: 10px;
     margin: 0 -30px;
     background-color: rgb(220,220,220);
-    background: linear-gradient(to bottom right,rgba(220,220,220,0),rgba(220,220,220,0.5));
+    background: linear-gradient(rgba(220,220,220,0),rgba(220,220,220,0.5));
 }
-
-.back a{
-    display: block;
-    width: 750px;
-    background-color: #821323;
-    margin: 20px auto;
-    padding: 10px 30px;
-    text-decoration: none;
-    text-align: center;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 24px;
-    color: #E5F4FF;
-}
-
-.back a:hover{
-    animation-name: linkFade;
-    animation-duration: 0.5s;
-    background-color: #27718F;
-}
-
-.back a:active{
-    background-color: #27718F;
-} 
 
 article {
     width: 750px;
@@ -134,31 +111,41 @@ article h2{
     border: none;
 }
 
-.ipadnav a {
+.ipadnav a, .back a{
     background-color: rgb(130,19,35);
     background: linear-gradient(to bottom right,rgb(179,26,48),rgb(130,19,35));
+    font: 24px Georgia, "Times New Roman", Times, serif;
+    color: #E5F4FF;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align:  
+    text-shadow: 2px 2px 2px #000;
+}
+
+.ipadnav a {
     width: 200px;
     height: 70px;
     margin: 34px 0px 30px 49px;
     padding: 30px;
     float: left;
-    font: 24px Georgia, "Times New Roman", Times, serif;
-    color: #E5F4FF;
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 3px;
     box-shadow: 5px 5px 5px #888888;
-    text-shadow: 2px 2px 2px #000;
 }
 
-.ipadnav a:hover{
+.back a{
+    display: block;
+    width: 750px;
+    margin: 20px auto;
+    padding: 10px 30px;
+}
+
+.ipadnav a:hover, .back a:hover{
     animation-name: linkFade;
     animation-duration: 0.5s;
     background-color: #27718F;
 }
 
-.ipadnav a:active{
+.ipadnav a:active, .back a:active{
     background-color: #27718F;
 } 
 
