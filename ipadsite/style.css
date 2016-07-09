@@ -23,23 +23,22 @@ body{
 }
 
 blockquote {
-    color: #666;
-    background-color: rgb(235,235,235);
-    margin: 36px auto 5px;
-    padding: 25px;
-    font: italic 17px Arial, Verdana, Helvetica;
+    color: rgb(150,150,150);
+    background-color: rgb(245,245,245);
+    box-shadow: 5px 5px 0 rgb(230,230,230);
+    margin: 36px auto;
+    padding: 16px;
+    font: italic 21px Georgia, "Times New Roman", Times, serif;
     text-align:  center;
-    border: 1px solid rgba(150,150,150,0.5);
+    border: 1px solid rgba(150,150,150,0.2);
     line-height: 200%;
     width: 85%;
 }
 
 .container{
-    /* clear: both; */
     padding: 0 10px;
-    /* width: 100%; */
     overflow: hidden;
-    margin: 30px 0;
+    margin: 0 0 30px;
 }
 
 .back a{
@@ -67,8 +66,8 @@ blockquote {
 
 article {
     width: 750px;
-    padding: 20px 30px 30px 30px;
-    margin: 0px auto;
+    padding: 20px 30px 0px 30px;
+    margin: 0px auto 20px;
     overflow: auto;
     background-color:rgb(255,255,255);
     border: 1px solid rgba(150,150,150,0.5);
@@ -111,9 +110,9 @@ article h2{
     width: 700px;
     height: 43px;
     background: url(http://www.hearingclinic.ca/images/separator.jpg);
-    margin: 0px;
+    margin: 10px auto;
     padding: 0px;
-    color:rgba(0,0,0,0);
+    color: rgba(0,0,0,0);
     display: block;
 }
 
