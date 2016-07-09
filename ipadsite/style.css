@@ -36,9 +36,10 @@ blockquote {
 }
 
 footer{
-    padding: 0 10px;
+    padding: 10px;
     overflow: hidden;
-    margin: 0 0 30px;
+    margin: 0 -30px;
+    background-color: rgb(80,80,80);
 }
 
 .back a{
@@ -117,12 +118,12 @@ article h2{
 }
 
 .address{
-    width: 50%;
+    width: 275px;
     float: left;
-    color: #666;
+    color: #BBB;
     font: 17px Arial, Verdana, Helvetica;
-    line-height: 170%;
-    /* padding: 0; */
+    line-height: 108%;
+    padding: 10px 60px;
 }
 
 .ipadnav{
