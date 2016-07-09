@@ -23,7 +23,7 @@ blockquote {
     color: rgb(125,125,125);
     background-color: rgb(245,245,245);
     box-shadow: 5px 5px 0 rgb(230,230,230);
-    margin: 36px auto;
+    margin: 36px auto 40px;
     padding: 16px;
     font: italic 23px 'Roboto',sans-serif;
     text-align:  center;
