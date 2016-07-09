@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #E8E8E8 url(http://www.hearingclinic.ca/images/body-bg.jpg) no-repeat scroll;
+    background: #E8E8E8 url(http://www.hearingclinic.ca/images/body-bg.jpg) no-repeat fixed;
     background-position: center top;
     padding: 0px;
     margin: 0px;
@@ -25,7 +25,7 @@ body{
 blockquote {
     color: #666;
     background-color: rgb(235,235,235);
-    margin: 10px auto 5px;
+    margin: 36px auto 5px;
     padding: 25px;
     font: italic 17px Arial, Verdana, Helvetica;
     text-align:  center;
@@ -102,7 +102,7 @@ article h2{
 #img_right {
     border: 1px solid #CCC;
     padding: 10px;
-    margin: 0 10px 0 29px;
+    margin: 0 10px 0 40px;
     float: right;
     width: 270px;
 }
