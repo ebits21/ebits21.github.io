@@ -46,7 +46,6 @@ article {
     overflow: auto;
     background-color:rgb(255,255,255);
     border: 1px solid rgba(150,150,150,0.5);
-    border-radius: 3px;
 }
 
 p{
@@ -138,19 +137,4 @@ article h2{
     width: 750px;
     margin: 20px auto;
     padding: 10px 30px;
-}
-
-.ipadnav a:hover, .back a:hover{
-    animation-name: linkFade;
-    animation-duration: 0.5s;
-    background-color: #27718F;
-}
-
-.ipadnav a:active, .back a:active{
-    background-color: #27718F;
-} 
-
-@keyframes linkFade{
-    from{background-color: #821323;}
-    to{background-color: #27718F;}
 }
