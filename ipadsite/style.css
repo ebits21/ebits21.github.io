@@ -30,6 +30,8 @@ blockquote {
     font: italic 16px Arial, Verdana, Helvetica;
     border: 1px solid rgba(150,150,150,0.5);
     line-height: 170%;
+    float: left;
+    clear: both;
 }
 
 .back a{
