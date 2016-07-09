@@ -35,6 +35,7 @@ blockquote {
 .container{
     clear: both;
     width: 100%;
+    overflow: hidden;
 }
 
 .back a{
