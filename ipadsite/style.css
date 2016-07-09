@@ -125,10 +125,10 @@ article h2{
 }
 
 .ipadnav a {
-    width: 200px;
-    height: 70px;
-    margin: 34px 0px 30px 49px;
-    padding: 30px;
+    width: 216px;
+    height: 72px;
+    margin: 29px 0px 30px 50px;
+    padding: 50px 21px 30px;
     float: left;
     box-shadow: 3px 3px 3px #888888;
 }
