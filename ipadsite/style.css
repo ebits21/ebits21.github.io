@@ -3,20 +3,13 @@
     padding: 0;
 }
 
-@keyframes linkFade{
-    from{background-color: #821323;}
-    to{background-color: #27718F;}
-}
-
 .header, .ipadnav, ul{
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 body{
     background: #E8E8E8 url(http://www.hearingclinic.ca/images/body-bg.jpg) no-repeat fixed;
     background-position: center top;
-    padding: 0px;
-    margin: 0px;
     font-size: 100%;
 }
 
@@ -24,7 +17,6 @@ body{
     width: 980px;
     background-color: transparent;
     border-bottom: none;
-    padding: 0px;
 }
 
 blockquote {
@@ -92,7 +84,6 @@ article h1{
     color: #821323;
     letter-spacing: -0.05em;
     line-height: 100%;
-    padding: 0px;
     margin: 10px 0px 5px;
 }
 
@@ -101,7 +92,6 @@ article h2{
     font: bold 28px Arial, Helvetica, sans-serif;
     color: #27718F;
     text-transform: uppercase;
-    margin: 0px;
 }
 
 #img_right {
@@ -116,7 +106,6 @@ article h2{
     height: 43px;
     background: url(http://www.hearingclinic.ca/images/separator.jpg);
     margin: 10px auto;
-    padding: 0px;
     color: rgba(0,0,0,0);
     display: block;
 }
@@ -140,7 +129,6 @@ article h2{
 
 .ipadnav ul {
     list-style: none;
-    padding: 0px;
     overflow: auto;
     border: none;
 }
@@ -163,8 +151,6 @@ article h2{
     box-shadow: 5px 5px 5px #888888;
 }
 
-.ipadnav a:link, .ipadnav a:visited{}
-
 .ipadnav a:hover{
     animation-name: linkFade;
     animation-duration: 0.5s;
@@ -174,4 +160,9 @@ article h2{
 .ipadnav a:active{
     background-color: #27718F;
 } 
+
+@keyframes linkFade{
+    from{background-color: #821323;}
+    to{background-color: #27718F;}
+}
 
