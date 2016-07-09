@@ -81,7 +81,7 @@ p{
 article h1{
     display: block;
     font: normal 38px Georgia, "Times New Roman", Times, serif;
-    text-shadow: 1px 1px 1px #CCC;
+    text-shadow: 1px 1px 3px #EEE;
     color: #821323;
     letter-spacing: -0.05em;
     line-height: 100%;
