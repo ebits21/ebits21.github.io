@@ -25,7 +25,7 @@ blockquote {
     box-shadow: 5px 5px 0 rgb(230,230,230);
     margin: 36px auto;
     padding: 16px;
-    font: italic 21px Georgia, "Times New Roman", Times, serif;
+    font: italic 21px 'Roboto',sans-serif;
     text-align:  center;
     border: 1px solid rgba(150,150,150,0.2);
     line-height: 200%;
@@ -115,7 +115,7 @@ article h2{
     display: inline-block;
     margin: 0 -4px;
     color: #444;
-    font: 17px Arial, Verdana, Helvetica;
+    font: 17px 'Roboto',sans-serif;
     line-height: 108%;
     padding: 10px 60px;
 }
@@ -165,4 +165,3 @@ article h2{
     from{background-color: #821323;}
     to{background-color: #27718F;}
 }
-
