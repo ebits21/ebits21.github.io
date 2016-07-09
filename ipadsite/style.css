@@ -37,10 +37,9 @@ blockquote {
 
 footer{
     padding: 10px;
-    overflow: hidden;
     margin: 0 -30px;
     background-color: rgb(220,220,220);
-    background: linear-gradient(rgba(220,220,220,1),rgba(220,220,220,0.6));
+    background: linear-gradient(rgba(220,220,220,0.2),rgba(220,220,220,0.5));
 }
 
 .back a{
@@ -75,10 +74,10 @@ article {
     border: 1px solid rgba(150,150,150,0.5);
 }
 
-article p{
+p{
     color: #666;
     margin: 0px 10px 25px;
-    font: 17px Arial, Verdana, Helvetica;
+    font: 17px Verdana, Arial, Helvetica;
     line-height: 170%;
 }
 
@@ -105,7 +104,6 @@ article h2{
     padding: 10px;
     margin: 0 10px 0 40px;
     float: right;
-    width: 270px;
 }
 
 .divider {
@@ -119,8 +117,9 @@ article h2{
 }
 
 .address{
-    width: 275px;
-    float: left;
+    width: 281px;
+    display: inline-block;
+    margin: 0 -4px;
     color: #444;
     font: 17px Arial, Verdana, Helvetica;
     line-height: 108%;
