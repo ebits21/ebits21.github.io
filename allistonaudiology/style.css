@@ -84,7 +84,7 @@ h1:after, h2:before, dt:before{
     display: block;
 }
 
-dd:first-child:before{
+dt:first-child:before{
     display: none;
 }
 
