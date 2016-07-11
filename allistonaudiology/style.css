@@ -75,13 +75,17 @@ h2, dt{
     margin: 20px 0 30px;
 }
 
-h1:after, h2:before{
+h1:after, h2:before, dt:before{
     content: url(http://www.hearingclinic.ca/images/separator.jpg);
     width: 700px;
     height: 43px;
     margin: 10px auto 15px;
     color: rgba(0,0,0,0);
     display: block;
+}
+
+dd:first-child:before{
+    display: none;
 }
 
 #img_right {
