@@ -66,7 +66,7 @@ h1{
     margin: 10px 0 5px;
 }
 
-h1:after{
+h1:after, h2:before{
     content: url(http://www.hearingclinic.ca/images/separator.jpg);
     width: 700px;
     height: 43px;
