@@ -148,6 +148,10 @@ dt:first-child:before{
     box-shadow: 3px 3px 3px #888888;
 }
 
+.ipadnav a:hover{
+    box-shadow: none;
+}
+
 .back a{
     display: block;
     width: 750px;
