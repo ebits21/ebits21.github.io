@@ -66,6 +66,15 @@ h1{
     margin: 10px 0 5px;
 }
 
+h1:after{
+    content: url(http://www.hearingclinic.ca/images/separator.jpg);
+    width: 700px;
+    height: 43px;
+    margin: 10px auto 15px;
+    color: rgba(0,0,0,0);
+    display: block;
+}
+
 h2, dt{
     display: block;
     font: bold 26px Arial, Helvetica, sans-serif;
