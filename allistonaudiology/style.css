@@ -77,7 +77,7 @@ h2, dt{
 
 h1:after, h2:before, dt:before{
     content: url(http://www.hearingclinic.ca/images/separator.jpg);
-    opacity: 0.5;
+    opacity: 0.1;
     width: 700px;
     height: 43px;
     margin: 10px auto 15px;
