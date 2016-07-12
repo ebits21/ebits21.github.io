@@ -95,15 +95,6 @@ dt:first-child:before{
     float: right;
 }
 
-.divider {
-    width: 700px;
-    height: 43px;
-    background: url(http://www.hearingclinic.ca/images/separator.jpg);
-    margin: 10px auto 15px;
-    color: rgba(0,0,0,0);
-    display: none;
-}
-
 .address{
     width: 281px;
     display: inline-block;
