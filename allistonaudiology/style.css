@@ -1,43 +1,24 @@
+/********Reset margins and paddings**********/
 *{
     margin: 0;
     padding: 0;
 }
 
-.header, .ipadnav, ul{
-    margin: 0 auto;
-}
-
+/**************Page Structure***************/
 body{
     background: #E8E8E8 url(http://www.hearingclinic.ca/images/body-bg.jpg) no-repeat scroll;
     background-position: center top;
     font-size: 100%;
 }
 
+.header, .ipadnav, ul{
+    margin: 0 auto;
+}
+
 .header{
     width: 980px;
     background-color: transparent;
     border-bottom: none;
-}
-
-blockquote {
-    color: rgb(125,125,125);
-    background-color: rgb(245,245,245);
-    box-shadow: 5px 5px 0 rgb(230,230,230);
-    margin: 36px auto 40px;
-    padding: 16px;
-    font: italic 23px 'Roboto',sans-serif;
-    text-align:  center;
-    border: 1px solid rgba(150,150,150,0.2);
-    line-height: 200%;
-    width: 85%;
-}
-
-footer{
-    padding: 10px;
-    margin: 0 -30px;
-    background-color: rgb(220,220,220);
-    background: linear-gradient(to bottom right,rgba(220,220,220,0.2),rgba(220,220,220,0.7));
-    border-bottom: 4px solid rgba(150,150,150,0.5);
 }
 
 article {
@@ -47,52 +28,6 @@ article {
     overflow: auto;
     background-color:rgb(255,255,255);
     border: 1px solid rgba(150,150,150,0.5);
-}
-
-p, dd{
-    color: #666;
-    margin: 0px 10px 25px;
-    font: 24px 'Roboto',sans-serif;
-    line-height: 170%;
-}
-
-h1{
-    display: block;
-    font: normal 40px Georgia, "Times New Roman", Times, serif;
-    text-shadow: 1px 1px 1px #CCC;
-    color: #821323;
-    letter-spacing: -0.05em;
-    line-height: 100%;
-    margin: 10px 0 5px;
-}
-
-h2, dt{
-    display: block;
-    font: bold 26px Arial, Helvetica, sans-serif;
-    color: #27718F;
-    text-transform: uppercase;
-    letter-spacing: -0.05em;
-    margin: 20px 0 30px;
-}
-
-h1:after, h2:before, dt:before{
-    content: url(http://www.hearingclinic.ca/images/separator.jpg);
-    width: 700px;
-    height: 43px;
-    margin: 10px auto 15px;
-    color: rgba(0,0,0,0);
-    display: block;
-}
-
-dt:first-child:before{
-    display: none;
-}
-
-#img_right {
-    border: 1px solid #CCC;
-    padding: 10px;
-    margin: 0 10px 0 40px;
-    float: right;
 }
 
 .address{
@@ -105,6 +40,15 @@ dt:first-child:before{
     padding: 10px 60px;
 }
 
+footer{
+    padding: 10px;
+    margin: 0 -30px;
+    background-color: rgb(220,220,220);
+    background: linear-gradient(to bottom right,rgba(220,220,220,0.2),rgba(220,220,220,0.7));
+    border-bottom: 4px solid rgba(150,150,150,0.5);
+}
+
+/*******************Navigation Elements****************/
 .ipadnav{
     width: 980px;
     padding: 20px 0px 50px 0px;
@@ -144,4 +88,91 @@ dt:first-child:before{
     width: 750px;
     margin: 20px auto;
     padding: 10px 30px;
+}
+
+/********************General Styles********************/
+
+blockquote {
+    color: rgb(125,125,125);
+    background-color: rgb(245,245,245);
+    box-shadow: 5px 5px 0 rgb(230,230,230);
+    margin: 36px auto 40px;
+    padding: 16px;
+    font: italic 23px 'Roboto',sans-serif;
+    text-align:  center;
+    border: 1px solid rgba(150,150,150,0.2);
+    line-height: 200%;
+    width: 85%;
+}
+
+p, dd, ol>li{
+    color: #666;
+    margin: 0px 10px 25px;
+    font: 24px 'Roboto',sans-serif;
+    line-height: 170%;
+}
+
+ol{
+    counter-reset: countstyler;
+}
+
+ol>li{
+    padding: 0 0 0 60px;
+    margin: 35px 80px;
+    font-size: 18px;
+    /*Create a context to absolutely position the numbers*/
+    position: relative;  
+    list-style: none;
+    border-top: 1px solid rgb(210,210,210);
+}
+
+ol>li:before{
+    content: counter(countstyler);
+    counter-increment: countstyler;
+    font-size: 32px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: .4em;
+    background: rgb(210,210,210);
+    background: linear-gradient(rgb(210,210,210),rgb(230,230,230));
+}
+
+h1{
+    display: block;
+    font: normal 40px Georgia, "Times New Roman", Times, serif;
+    text-shadow: 1px 1px 1px #CCC;
+    color: #821323;
+    letter-spacing: -0.05em;
+    line-height: 100%;
+    margin: 10px 0 5px;
+}
+
+h2, dt{
+    display: block;
+    font: bold 26px Arial, Helvetica, sans-serif;
+    color: #27718F;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    margin: 20px 0 30px;
+}
+
+h1:after, h2:before, dt:before{
+    content: url(http://www.hearingclinic.ca/images/separator.jpg);
+    width: 700px;
+    height: 43px;
+    margin: 10px auto 15px;
+    color: rgba(0,0,0,0);
+    display: block;
+}
+
+dt:first-child:before{
+    display: none;
+}
+
+#img_right {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin: 0 10px 0 40px;
+    float: right;
 }
