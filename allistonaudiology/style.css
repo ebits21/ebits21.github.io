@@ -114,6 +114,7 @@ p, dd, ol>li{
 
 ol{
     counter-reset: countstyler;
+    margin: 0 0 30px 0;
 }
 
 ol>li{
@@ -124,6 +125,15 @@ ol>li{
     position: relative;  
     list-style: none;
     border-top: 1px solid rgb(210,210,210);
+}
+
+.besideimg, .besideimgaids{
+    overflow: hidden;
+}
+
+.besideimg{
+    margin 10px 0 40px 40px;
+    height: 58px;
 }
 
 ol>li:before{
@@ -175,4 +185,11 @@ dt:first-child:before{
     padding: 10px;
     margin: 0 10px 0 40px;
     float: right;
+}
+
+#img_left {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin: 0 40px 0 10px;
+    float: left;
 }
