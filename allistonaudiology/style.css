@@ -131,6 +131,7 @@ p, dd, ol>li, ul>li{
 
 dd{
     width: 730px;
+    display: none;
 }
 
 ol{
