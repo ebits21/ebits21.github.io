@@ -12,7 +12,7 @@
     $('dl').find('dt').click(function(){
 
       //Expand or collapse this panel
-      $(this).next().toggle("fast");
+      $(this).next().slideToggle("fast");
 
       //Hide the other panels
       $("dd").not($(this).next()).hide("fast");
