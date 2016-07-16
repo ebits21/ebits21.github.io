@@ -3,6 +3,7 @@
 <head>
   <title>FAQ</title>
  <link href="style.css" rel="stylesheet"/>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
  <meta content="telephone=no" name="format-detection">
 </head>
@@ -10,7 +11,22 @@
   <div class="header"></div>
  <div class="back"><a href="index.html">&#8619; Back to Menu</a></div>
  <article>
-   <h1>Frequently Asked Questions</h1> 
+ <!-- JS -->
+<script type="text/javascript">
+  $(document).ready(function($) {
+    $('dl').find('dt').click(function(){
+
+      //Expand or collapse this panel
+      $(this).next().slideToggle('fast');
+
+      //Hide the other panels
+      $("dd").not($(this).next()).slideUp('fast');
+
+    });
+  });
+</script>
+
+  <h1>Frequently Asked Questions</h1> 
   <dl>
    <dt>Do I need a referral?</dt>
    <dd>No. simply call, email or drop in to set up and appointment.</dd>
