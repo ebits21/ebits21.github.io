@@ -12,10 +12,10 @@
     $('dl').find('dt').click(function(){
 
       //Expand or collapse this panel
-      $(this).next().animate({display: 'block'});
+      $(this).next().show();
 
       //Hide the other panels
-      $("dd").not($(this).next()).animate({diplay: 'none'});
+      $("dd").not($(this).next()).hide();
 
     });
   });
