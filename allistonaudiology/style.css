@@ -181,7 +181,7 @@ h2, dt{
     margin: 20px 0 30px;
 }
 
-h1:after, h2:before, dt:before{
+h1:after, h2:before{
     content: url(images/separator.jpg);
     width: 700px;
     height: 43px;
