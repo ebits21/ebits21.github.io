@@ -18,7 +18,7 @@
 body{
     background: #E8E8E8 url(images/body-bg.jpg) no-repeat scroll;
     background-position: center top;
-    font-size: 100%;
+    font: 24px 'Roboto',sans-serif;
 }
 
 .header, .ipadnav{
@@ -44,18 +44,17 @@ article {
 }
 
 .address{
-    width: 281px;
+    width: 280px;
     display: inline-block;
     margin: 0 -4px;
     color: #444;
-    font: 19px 'Roboto',sans-serif;
-    line-height: 108%;
+    font-size: 19px;
     padding: 10px 60px;
 }
 
 footer{
     padding: 10px;
-    margin: 0 -30px;
+    margin: 55px -30px 0;
     background-color: rgb(220,220,220);
     background: linear-gradient(to bottom right,rgba(220,220,220,0.2),rgba(220,220,220,0.7));
     border-bottom: 4px solid rgba(150,150,150,0.5);
@@ -116,7 +115,8 @@ blockquote {
     box-shadow: 5px 5px 0 rgb(230,230,230);
     margin: 36px auto 40px;
     padding: 16px;
-    font: italic 23px 'Roboto',sans-serif;
+    font-style: italic;
+    font-size: 23px;
     text-align:  center;
     border: 1px solid rgba(150,150,150,0.2);
     line-height: 200%;
@@ -126,7 +126,6 @@ blockquote {
 p, dd, ol>li, ul>li{
     color: #666;
     margin: 0px 10px 25px;
-    font: 24px 'Roboto',sans-serif;
     line-height: 170%;
 }
 
@@ -136,7 +135,7 @@ ol{
 
 ol>li{
     padding: 0 0 0 60px;
-    margin: 35px 80px;
+    margin: 35px 55px;
     font-size: 18px;
     /*Create a context to absolutely position the numbers*/
     position: relative;  
@@ -182,7 +181,6 @@ h1:after, h2:before, dt:before{
     width: 700px;
     height: 43px;
     margin: 10px auto 15px;
-    color: rgba(0,0,0,0);
     display: block;
 }
 
@@ -190,16 +188,17 @@ dt:first-child:before{
     display: none;
 }
 
-#img_right {
+#img_right, #img_left{
     border: 1px solid #CCC;
     padding: 10px;
+}
+
+#img_right {
     margin: 0 10px 0 40px;
     float: right;
 }
 
 #img_left {
-    border: 1px solid #CCC;
-    padding: 10px;
     margin: 0 40px 0 10px;
     float: left;
 }
