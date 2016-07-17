@@ -137,7 +137,7 @@ dd{
 
 .show{
     display: block;
-    animation: grow .5s ease-in-out;
+    animation: grow .5s ease-out;
 }
 
 @keyframes grow{
