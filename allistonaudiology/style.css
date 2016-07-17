@@ -217,7 +217,7 @@ dt:before{
     }
 
 dt:active:before{
-    content: U+25BC;
+    content: U#x25BC;
     }
 
 h1:after, h2:before{
