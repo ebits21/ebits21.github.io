@@ -134,13 +134,13 @@ dd{
     overflow: hidden;
     max-height: 0;
     opacity: 0;
-    /*transform: scaleY(0);*/
-   /* transform-origin: top;*/
-    transition: all 1s ease-in
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 1s ease-in;
 }
 
 .show{
-    /*transform: scaleY(1);*/
+    transform: scaleY(1);
     max-height: 500px;
     opacity: 1;
 }
