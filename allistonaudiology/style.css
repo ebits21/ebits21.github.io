@@ -136,6 +136,7 @@ dd{
 }
 
 .show{
+    display: block;
     animation: grow .3s ease-in-out;
 }
 
