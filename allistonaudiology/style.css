@@ -213,11 +213,11 @@ dt{
 }
 
 dt:before{
-    content: "\9658"; /*html code with slash in front*/
+    content: "\25B6"; /*html code with slash in front*/
     }
 
 dt:active:before{
-    content: "\9660";
+    content: "\25BC";
     }
 
 h1:after, h2:before{
