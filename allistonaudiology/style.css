@@ -213,7 +213,7 @@ dt{
 }
 
 dt:before{
-    content: "\25B6"; /*html code with slash in front*/
+    content: "\25BA"; /*html code with slash in front*/
     }
 
 dt:active:before{
