@@ -136,7 +136,8 @@ dd{
 }
 
 .show{
-   /* display: block;*/
+    display: block;
+    overflow: hidden;
     animation: grow .5s ease-in-out;
 }
 
