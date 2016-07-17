@@ -132,13 +132,15 @@ p, ol>li, ul>li, dd{
 dd{
     width: 730px;
     overflow: hidden;
+    height: 0;
     transform: scaleY(0);
     transform-origin: top;
-    transition: transform 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .show{
     transform: scaleY(1);
+    max-height: 500px;
 }
 
 ol{
