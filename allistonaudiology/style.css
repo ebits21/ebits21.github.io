@@ -218,7 +218,7 @@ dt:before{
     content: "\25BA"; /*html code with slash in front*/
     display: absolute;
     top: 0px;
-    left: 0px;
+    left: -20px;
 }
 
 .downarrow:before{
