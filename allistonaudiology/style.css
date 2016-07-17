@@ -132,15 +132,28 @@ p, ol>li, ul>li, dd{
 dd{
     width: 730px;
     overflow: hidden;
-    max-height: 0;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: all 0.2s ease-in;
+    display: none;
 }
 
 .show{
-    transform: scaleY(1);
-    max-height: 400px;
+    animation: grow .3s ease-in-out;
+}
+
+@keyframes grow{
+    0% {
+      display: none;
+      opacity: 0;
+    }
+    1% {
+      display: block;
+      opacity: 0;
+      transform: scaleY(0);
+      transform-origin: top;
+    }
+    100% {
+      opacity: 1;
+      transform: scaleY(1);
+    }
 }
 
 ol{
