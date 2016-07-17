@@ -130,16 +130,15 @@ p, ol>li, ul>li{
 }
 
 dd{
-    height: 0;
     width: 730px;
     overflow: hidden;
-    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.2s ease;
 }
 
 .show{
-    transition: opacity 1s ease-in;
-    opacity: 1;
-    height: auto;
+    transform: scaleY(1);
     margin: 0px 10px 25px;
 }
 
