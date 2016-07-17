@@ -131,13 +131,14 @@ p, ol>li, ul>li, dd{
 
 dd{
     width: 730px;
+    margin: 0 10px;
     overflow: hidden;
     display: none;
 }
 
 .show{
     display: block;
-    animation: grow .5s ease-out;
+    animation: grow .4s ease-in-out;
 }
 
 @keyframes grow{
