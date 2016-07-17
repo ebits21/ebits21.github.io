@@ -214,6 +214,7 @@ dt{
 
 dt:before{
     content: U+25B6;
+    display: inline-block;
     }
 
 dt:active:before{
