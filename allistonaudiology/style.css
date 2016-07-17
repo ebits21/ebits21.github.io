@@ -107,6 +107,14 @@ footer{
     padding: 10px 30px;
 }
 
+.backfix{
+    position: fixed;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
 /********************General Styles********************/
 
 blockquote {
