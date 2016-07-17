@@ -213,12 +213,11 @@ dt{
 }
 
 dt:before{
-    content: U+25B6;
-    display: inline-block;
+    content: "U+25B6";
     }
 
 dt:active:before{
-    content: U#x25BC;
+    content: "U+25BC";
     }
 
 h1:after, h2:before{
