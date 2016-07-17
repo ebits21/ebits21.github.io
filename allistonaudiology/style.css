@@ -107,14 +107,6 @@ footer{
     padding: 10px 30px;
 }
 
-.backfix{
-    position: fixed;
-    top: -20px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 1;
-}
-
 /********************General Styles********************/
 
 blockquote {
@@ -131,15 +123,24 @@ blockquote {
     width: 85%;
 }
 
-p, dd, ol>li, ul>li{
+p, ol>li, ul>li{
     color: #666;
     margin: 0px 10px 25px;
     line-height: 170%;
 }
 
 dd{
-    display: none;
+    height: 0;
     width: 730px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.show{
+    transition: opacity 1s ease-in;
+    opacity: 1;
+    height: auto;
+    margin: 0px 10px 25px;
 }
 
 ol{
