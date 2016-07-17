@@ -19,26 +19,34 @@
 </script>
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
  <meta content="telephone=no" name="format-detection">
+<<<<<<< HEAD
 </head>
 <body>
   <div class="header"></div>
  <div class="back" id="back"><a href="index.html">&#8619; Back to Menu</a></div>
  <article>
  <!-- JS -->
+=======
+  <!-- JS -->
+>>>>>>> origin/master
 <script type="text/javascript">
   $(document).ready(function($) {
     $('dl').find('dt').click(function(){
 
       //Expand or collapse this panel
-      $(this).next().slideToggle('fast');
+      $(this).next().slideToggle("fast");
 
       //Hide the other panels
-      $("dd").not($(this).next()).slideUp('fast');
+      $("dd").not($(this).next()).hide("fast");
 
     });
   });
 </script>
-
+</head>
+<body>
+  <div class="header"></div>
+ <div class="back"><a href="index.html">&#8619; Back to Menu</a></div>
+ <article>
   <h1>Frequently Asked Questions</h1> 
   <dl>
    <dt>Do I need a referral?</dt>
