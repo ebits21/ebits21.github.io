@@ -209,6 +209,7 @@ h2, dt{
 dt{
     font-weight: normal;
     margin: 20px 0 5px;
+    text-transform: capitalize;
 }
 
 h1:after, h2:before{
