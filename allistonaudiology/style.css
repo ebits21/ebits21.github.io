@@ -212,6 +212,14 @@ dt{
     text-transform: capitalize;
 }
 
+dt:before{
+    content: U+25B6;
+    }
+
+dt:active:before{
+    content: U+25BC;
+    }
+
 h1:after, h2:before{
     content: url(images/separator.jpg);
     width: 700px;
