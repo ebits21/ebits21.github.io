@@ -188,6 +188,7 @@ h2, dt{
     text-transform: uppercase;
     letter-spacing: -0.05em;
     margin: 20px 0 30px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 h1:after, h2:before{
