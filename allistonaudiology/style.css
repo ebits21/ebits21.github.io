@@ -213,11 +213,11 @@ dt{
 }
 
 dt:before{
-    content: "U#x25BC";
+    content: "&#9658;"
     }
 
 dt:active:before{
-    content: "U+25BC";
+    content: "&#9660;
     }
 
 h1:after, h2:before{
