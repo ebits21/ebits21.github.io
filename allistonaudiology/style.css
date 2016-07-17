@@ -149,7 +149,7 @@ dd{
       display: block;
       opacity: 0;
       transform: translateY(-100%);
-      transform-origin: top;
+     /* transform-origin: top;*/
     }
     100% {
       opacity: 1;
