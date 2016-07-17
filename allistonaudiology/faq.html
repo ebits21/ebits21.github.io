@@ -17,11 +17,11 @@
     $('dl').find('dt').click(function(){
 
       //Expand or collapse this panel
-      $(this).addClass("downarrow");
+      $(this).toggleClass("downarrow");
       $(this).next().toggleClass("show");
 
       //Hide the other panels
-      $("dd").not($(this)).removeClass("downarrow");
+      $("dt").not($(this)).removeClass("downarrow");
       $("dd").not($(this).next()).removeClass("show");
 
     });
