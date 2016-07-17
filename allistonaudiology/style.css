@@ -213,11 +213,11 @@ dt{
 }
 
 dt:before{
-    content: "&#9658;"
+    content: "/9658;" /*html code with slash in front*/
     }
 
 dt:active:before{
-    content: "&#9660;
+    content: "/9660;
     }
 
 h1:after, h2:before{
