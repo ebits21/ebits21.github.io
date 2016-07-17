@@ -138,8 +138,8 @@ p, dd, ol>li, ul>li{
 }
 
 dd{
-    width: 730px;
     display: none;
+    width: 730px;
 }
 
 ol{
