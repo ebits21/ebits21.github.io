@@ -132,7 +132,7 @@ p, ol>li, ul>li, dd{
 dd{
     width: 730px;
     overflow: hidden;
-    height: 0;
+    max-height: 0;
     /*transform: scaleY(0);*/
    /* transform-origin: top;*/
     transition: all 0.2s ease;
