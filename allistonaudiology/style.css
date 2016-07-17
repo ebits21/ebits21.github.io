@@ -216,14 +216,14 @@ dt{
 
 dt:before{
     content: "\25BA"; /*html code with slash in front*/
-    display: absolute;
+    position: absolute;
     top: 0px;
-    left: -20px;
+    left: 0px;
 }
 
 .downarrow:before{
     content: "\25BC";
-    display: absolute;
+    position: absolute;
     top: 0px;
     left: 0px;
 }
