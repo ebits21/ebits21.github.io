@@ -133,16 +133,14 @@ dd{
     width: 730px;
     overflow: hidden;
     max-height: 0;
-    opacity: 0;
     transform: scaleY(0);
     transform-origin: top;
-    transition: all 1s ease-in;
+    transition: all 0.5 ease-in;
 }
 
 .show{
     transform: scaleY(1);
-    max-height: 500px;
-    opacity: 1;
+    max-height: 400px;
 }
 
 ol{
