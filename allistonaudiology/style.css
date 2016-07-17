@@ -137,7 +137,6 @@ dd{
 
 .show{
     display: block;
-    overflow: hidden;
     animation: grow .5s ease-in-out;
 }
 
@@ -149,13 +148,13 @@ dd{
     1% {
       display: block;
       opacity: 0;
-      transform: translateY(-100%);
-     /* transform-origin: top;*/
+      transform: scaleY(0);
+      transform-origin: top;
     }
     100% {
       opacity: 1;
-      transform: translateY(0);
-     /* transform-origin: top;*/
+      transform: scaleY(1);
+      transform-origin: top;
     }
 }
 
