@@ -131,7 +131,6 @@ p, ol>li, ul>li, dd{
 
 dd{
     width: 730px;
-    margin: 0 10px;
     overflow: hidden;
     display: none;
 }
@@ -205,6 +204,11 @@ h2, dt{
     letter-spacing: -0.05em;
     margin: 20px 0 30px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+dt{
+    font-weight: normal;
+    margin: 20px 0 5px;
 }
 
 h1:after, h2:before{
