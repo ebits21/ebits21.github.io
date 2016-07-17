@@ -213,7 +213,7 @@ dt{
 }
 
 dt:before{
-    content: "U+25B6";
+    content: "U#x25BC";
     }
 
 dt:active:before{
@@ -226,10 +226,6 @@ h1:after, h2:before{
     height: 43px;
     margin: 10px auto 15px;
     display: block;
-}
-
-dt:first-child:before{
-    display: none;
 }
 
 #img_right, #img_left{
