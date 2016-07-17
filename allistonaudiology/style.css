@@ -210,15 +210,23 @@ dt{
     font-weight: normal;
     margin: 20px 0 5px;
     text-transform: capitalize;
+    padding-left: 10px;
+    position: relative;
 }
 
 dt:before{
     content: "\25BA"; /*html code with slash in front*/
-    }
+    display: absolute;
+    top: 0px;
+    left: 0px;
+}
 
-dt:active:before{
+.downarrow:before{
     content: "\25BC";
-    }
+    display: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 h1:after, h2:before{
     content: url(images/separator.jpg);
