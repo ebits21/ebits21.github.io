@@ -242,12 +242,16 @@ dt:before{
     left: -20px;
 }
 
-h1:after, h2:before{
+h1:after, h2:before, h3:before{
     content: url(images/separator.jpg);
     width: 700px;
     height: 43px;
     margin: 10px auto 15px;
     display: block;
+}
+
+h3:first-child:before{
+    display: none;
 }
 
 #img_right, #img_left, #map{
