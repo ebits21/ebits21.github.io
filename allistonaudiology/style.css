@@ -129,7 +129,7 @@ p, ol>li, ul>li, dd{
     line-height: 170%;
 }
 
-ul:not(.ipadnav ul){
+div:not(.ipadnav) ul{
     margin-left: 30px;  
 }
 
