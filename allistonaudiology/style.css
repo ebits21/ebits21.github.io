@@ -206,6 +206,14 @@ h2, dt{
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+h3{
+    display: block;
+    font: normal 21px Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0 30px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 dl{
     padding: 0 50px;
 }
