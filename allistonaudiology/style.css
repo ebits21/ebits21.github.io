@@ -252,6 +252,7 @@ h1:after, h2:before, h3:before{
 
 h3:first-of-type:before{
     content: '';
+    display: none;
 }
 
 #img_right, #img_left, #map{
