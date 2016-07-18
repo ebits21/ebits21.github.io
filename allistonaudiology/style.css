@@ -251,6 +251,7 @@ h1:after, h2:before, h3:before{
 }
 
 h3:first-child:before{
+    content: "";
     display: none;
 }
 
