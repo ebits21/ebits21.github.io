@@ -220,6 +220,7 @@ dl{
 }
 dt{
     font-weight: normal;
+    font-size: 22px;
     margin: 20px 0 5px;
     text-transform: capitalize;
     padding-left: 10px;
