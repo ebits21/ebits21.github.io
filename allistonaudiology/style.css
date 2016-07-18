@@ -250,7 +250,7 @@ h1:after, h2:before, h3:before{
     display: block;
 }
 
-h3:first-child:before{
+h3:before:first-child{
     content: "";
     display: none;
 }
