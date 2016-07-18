@@ -208,14 +208,14 @@ h2, dt{
 
 h3{
     display: block;
-    font-size: 0.9em;
+    font-size: 1.2em;
     text-transform: capitalize;
     margin: 20px 0 30px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 dl{
-    padding: 0 50px;
+    padding: 0 50px 30px;
 }
 dt{
     font-weight: normal;
