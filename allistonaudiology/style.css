@@ -254,5 +254,6 @@ h1:after, h2:before{
 #map{
     display: inline-block;
     padding: 0;
+    margin-top: 20px;
     width: 100%;
 }
