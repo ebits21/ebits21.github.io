@@ -196,7 +196,7 @@ h1{
     margin: 10px 0 5px;
 }
 
-h2, dt{
+h2, dt, h3{
     display: block;
     font: bold 26px Arial, Helvetica, sans-serif;
     color: #27718F;
@@ -207,12 +207,8 @@ h2, dt{
 }
 
 h3{
-    display: block;
-    font-size: 1.2em;
-    color: #27718F;
     text-transform: capitalize;
     margin: 15px 0 30px;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 dl{
