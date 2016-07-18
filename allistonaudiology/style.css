@@ -224,7 +224,7 @@ dt{
     text-transform: capitalize;
     padding-left: 10px;
     position: relative;
-    color: inherit;
+    color: #666;
 }
 
 dt:before{
