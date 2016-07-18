@@ -199,11 +199,10 @@ h1{
 h2, dt{
     display: block;
     /*font: bold 26px Arial, Helvetica, sans-serif;*/
-    font-weight: bold;
-    font-size: 26px;
+    font-size: 28px;
     color: #27718F;
     text-transform: uppercase;
-    letter-spacing: -0.05em;
+    /*letter-spacing: -0.05em;*/
     margin: 20px 0 30px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
