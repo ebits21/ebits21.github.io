@@ -261,12 +261,12 @@ h3:first-of-type:before{
 }
 
 #img_right {
-    margin: 0 10px 10px 40px;
+    margin: 0 10px 0 40px;
     float: right;
 }
 
 #img_left {
-    margin: 0 40px 10px 10px;
+    margin: 0 40px 0 10px;
     float: left;
 }
 
