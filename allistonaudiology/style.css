@@ -198,7 +198,9 @@ h1{
 
 h2, dt{
     display: block;
-    font: bold 26px Arial, Helvetica, sans-serif;
+    /*font: bold 26px Arial, Helvetica, sans-serif;*/
+    font-weight: bold;
+    font-size: 26px;
     color: #27718F;
     text-transform: uppercase;
     letter-spacing: -0.05em;
