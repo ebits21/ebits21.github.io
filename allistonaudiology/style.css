@@ -236,7 +236,7 @@ h1:after, h2:before{
     display: block;
 }
 
-#img_right, #img_left{
+#img_right, #img_left, #map{
     border: 1px solid #CCC;
     padding: 10px;
 }
@@ -251,6 +251,7 @@ h1:after, h2:before{
     float: left;
 }
 
-.map{
+#map{
+    display: inline-block;
     width: 100%;
 }
