@@ -164,7 +164,7 @@ ol{
 
 ol>li{
     padding: 0 0 0 60px;
-    margin: 35px 55px;
+    margin: 20px 55px;
     font-size: 18px;
     /*Create a context to absolutely position the numbers*/
     position: relative;  
