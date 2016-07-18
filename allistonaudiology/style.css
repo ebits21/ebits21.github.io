@@ -250,3 +250,7 @@ h1:after, h2:before{
     margin: 0 40px 0 10px;
     float: left;
 }
+
+.map{
+    width: 100%;
+}
