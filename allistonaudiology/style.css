@@ -209,6 +209,7 @@ h2, dt{
 h3{
     display: block;
     font-size: 1.2em;
+    color: #27718F;
     text-transform: capitalize;
     margin: 20px 0 30px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -223,6 +224,7 @@ dt{
     text-transform: capitalize;
     padding-left: 10px;
     position: relative;
+    color: inherit;
 }
 
 dt:before{
