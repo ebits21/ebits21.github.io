@@ -253,6 +253,6 @@ h1:after, h2:before{
 
 #map{
     display: inline-block;
-    width: -webkit-calc(100% - 20px);
-    width: calc(100%-20px);
+    padding: 0;
+    width: 100%;
 }
