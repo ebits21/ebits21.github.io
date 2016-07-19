@@ -192,7 +192,7 @@ ol>li:before{
     top: 0px;
     padding: .4em;
     background: rgb(210,210,210);
-    background: linear-gradient(rgb(210,210,210),rgb(230,230,230));
+    background: linear-gradient(rgb(225,225,225),rgb(245,245,245));
 }
 
 h1{
