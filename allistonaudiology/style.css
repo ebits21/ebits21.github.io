@@ -53,7 +53,7 @@ article {
 }
 
 .hearingaid{
-    padding-bottom: 15px;
+    padding: 0 10px 15px;
 }
 
 footer{
@@ -296,7 +296,7 @@ h3:first-of-type:before{
 }
 
 .aiddesc{
-    width: 488px;
+    width: 468px;
     font-size: 20px;
     line-height: 120%;
     margin-bottom: 0;
