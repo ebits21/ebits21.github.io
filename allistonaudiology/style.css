@@ -1,4 +1,4 @@
-/********Reset margins and paddings**********/
+/********Reset, fonts, animations**********/
 *{
     margin: 0;
     padding: 0;
@@ -12,145 +12,6 @@
   src: local('Roboto Light'), local('Roboto-Light'),
        url('roboto-v15-latin-300.woff2') format('woff2'), 
        url('roboto-v15-latin-300.woff') format('woff');
-}
-
-/**************Page Structure***************/
-body{
-    background: #E8E8E8 url(images/body-bg.jpg) no-repeat scroll;
-    background-position: center top;
-    font: 24px 'Roboto',sans-serif;
-}
-
-.header, .ipadnav{
-    margin: 0 auto;
-}
-
-.header{
-    width: 980px;
-    height: 165px;
-    background-color: transparent;
-    background: url(images/peter-kirchberger-logo.png) no-repeat;
-    background-position: center top;
-    border-bottom: none;
-}
-
-article {
-    width: 750px;
-    padding: 20px 30px 0px 30px;
-    margin: 0px auto 20px;
-    overflow: auto;
-    background-color:rgb(255,255,255);
-    border: 1px solid rgba(150,150,150,0.5);
-}
-
-.address{
-    width: 280px;
-    display: inline-block;
-    margin: 0 -4px;
-    color: #444;
-    font-size: 19px;
-    padding: 10px 60px;
-}
-
-.hearingaid{
-    padding: 0 10px 15px;
-}
-
-footer{
-    padding: 10px;
-    margin: 35px -30px 0;
-    background-color: rgb(220,220,220);
-    background: linear-gradient(to bottom right,rgba(220,220,220,0.2),rgba(220,220,220,0.7));
-    border-bottom: 4px solid rgba(150,150,150,0.5);
-}
-
-/*******************Navigation Elements****************/
-.ipadnav{
-    width: 980px;
-    padding: 20px 0px 50px 0px;
-    overflow: auto;
-    border: none;
-}
-
-.ipadnav ul {
-    list-style: none;
-    overflow: auto;
-    border: none;
-}
-
-.ipadnav ul>li{
-    margin: 0;
-    line-height: 100%;
-}
-
-.ipadnav a, .back a{
-    background-color: rgb(130,19,35);
-    background: linear-gradient(rgb(130,19,35),rgb(166,24,45),rgb(130,19,35));
-    font: 24px Georgia, "Times New Roman", Times, serif;
-    color: #E5F4FF;
-    border: 1px solid black;
-    border-radius: 3px;
-    text-decoration: none;
-    text-align: center;
-    text-shadow: 1px 1px 2px #000;
-}
-
-.ipadnav a {
-    width: 216px;
-    height: 72px;
-    margin: 29px 0px 30px 50px;
-    padding: 50px 21px 30px;
-    float: left;
-    box-shadow: 3px 3px 3px #888888;
-}
-
-.back a{
-    display: block;
-    width: 750px;
-    margin: 20px auto;
-    padding: 10px 30px;
-}
-
-/********************General Styles********************/
-
-blockquote {
-    color: rgb(125,125,125);
-    background-color: rgb(245,245,245);
-    box-shadow: 5px 5px 0 rgb(230,230,230);
-    margin: 36px auto 40px;
-    padding: 16px;
-    font-style: italic;
-    font-size: 23px;
-    text-align:  center;
-    border: 1px solid rgba(150,150,150,0.2);
-    line-height: 200%;
-    width: 85%;
-}
-
-p, ol>li, ul>li, dd{
-    color: #666;
-    margin: 0px 10px 25px;
-    line-height: 170%;
-}
-
-.spaced{
-    margin-top: 50px;
-}
-
-article ul{
-    margin-left: 30px;  
-}
-
-dd{
-    width: 630px;
-    overflow: hidden;
-    margin-top: 5px;
-    display: none;
-}
-
-.show{
-    display: block;
-    animation: grow .4s ease-in-out;
 }
 
 @keyframes grow{
@@ -169,6 +30,18 @@ dd{
       transform: scaleY(1);
       transform-origin: top;
     }
+}
+
+/********************General Styles********************/
+
+p, ol>li, article ul>li, dd{
+    color: #666;
+    margin: 0px 10px 25px;
+    line-height: 170%;
+}
+
+article ul{
+    margin-left: 30px;  
 }
 
 ol{
@@ -224,26 +97,6 @@ h3{
     margin: 15px 0 30px;
 }
 
-dl{
-    padding: 0 50px 20px;
-}
-dt{
-    font-weight: normal;
-    font-size: 24px;
-    margin: 20px 0 5px;
-    text-transform: capitalize;
-    padding-left: 10px;
-    position: relative;
-    color: #666;
-}
-
-dt:before{
-    content: "\25BA"; /*html code with slash in front*/
-    position: absolute;
-    top: 0px;
-    left: -20px;
-}
-
 .downarrow:before{
     content: "\25BC";
     position: absolute;
@@ -264,6 +117,20 @@ h3:first-of-type:before{
     display: none;
 }
 
+blockquote {
+    color: rgb(125,125,125);
+    background-color: rgb(245,245,245);
+    box-shadow: 5px 5px 0 rgb(230,230,230);
+    margin: 36px auto 40px;
+    padding: 16px;
+    font-style: italic;
+    font-size: 23px;
+    text-align:  center;
+    border: 1px solid rgba(150,150,150,0.2);
+    line-height: 200%;
+    width: 85%;
+}
+
 #img_right, #img_left, #map{
     border: 1px solid #CCC;
     padding: 10px;
@@ -279,6 +146,41 @@ h3:first-of-type:before{
     float: left;
 }
 
+/******************FAQ Page********************/
+dl{
+    padding: 0 50px 20px;
+}
+
+dt{
+    font-weight: normal;
+    font-size: 24px;
+    margin: 20px 0 5px;
+    text-transform: capitalize;
+    padding-left: 10px;
+    position: relative;
+    color: #666;
+}
+
+dt:before{
+    content: "\25BA"; /*html code with slash in front*/
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+
+dd{
+    width: 630px;
+    overflow: hidden;
+    margin-top: 5px;
+    display: none;
+}
+
+.show{
+    display: block;
+    animation: grow .4s ease-in-out;
+}
+
+/************Alliston Audiology page***********/
 #map{
     display: inline-block;
     padding: 0;
@@ -286,6 +188,7 @@ h3:first-of-type:before{
     width: 100%;
 }
 
+/***************Hearing aid page**************/
 .aidimage, .aiddesc{
     display: inline-block;
     vertical-align: top;
@@ -301,5 +204,101 @@ h3:first-of-type:before{
     line-height: 120%;
     margin-bottom: 0;
     padding: 0 10px;
+}
+
+.hearingaid{
+    padding: 0 10px 15px;
+}
+
+.spaced{
+    margin-top: 50px;
+}
+
+/*******************Navigation elements****************/
+.ipadnav{
+    width: 980px;
+    padding: 20px 0px 50px 0px;
+    overflow: auto;
+    border: none;
+}
+
+.ipadnav ul {
+    list-style: none;
+    overflow: auto;
+    border: none;
+}
+
+.ipadnav a, .back a{
+    background-color: rgb(130,19,35);
+    background: linear-gradient(rgb(130,19,35),rgb(166,24,45),rgb(130,19,35));
+    font: 24px Georgia, "Times New Roman", Times, serif;
+    color: #E5F4FF;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.ipadnav a {
+    width: 216px;
+    height: 72px;
+    margin: 29px 0px 30px 50px;
+    padding: 50px 21px 30px;
+    float: left;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+.back a{
+    display: block;
+    width: 750px;
+    margin: 20px auto;
+    padding: 10px 30px;
+}
+
+/**************Page Structure***************/
+body{
+    background: #E8E8E8 url(images/body-bg.jpg) no-repeat scroll;
+    background-position: center top;
+    font: 24px 'Roboto',sans-serif;
+}
+
+.header, .ipadnav{
+    margin: 0 auto;
+}
+
+.header{
+    width: 980px;
+    height: 165px;
+    background-color: transparent;
+    background: url(images/peter-kirchberger-logo.png) no-repeat;
+    background-position: center top;
+    border-bottom: none;
+}
+
+article {
+    width: 750px;
+    padding: 20px 30px 0px 30px;
+    margin: 0px auto 20px;
+    overflow: auto;
+    background-color:rgb(255,255,255);
+    border: 1px solid rgba(150,150,150,0.5);
+}
+
+.address{
+    width: 280px;
+    display: inline-block;
+    margin: 0 -4px;
+    color: #444;
+    font-size: 19px;
+    padding: 10px 60px;
+}
+
+footer{
+    padding: 10px;
+    margin: 35px -30px 0;
+    background-color: rgb(220,220,220);
+    background: linear-gradient(to bottom right,rgba(220,220,220,0.2),rgba(220,220,220,0.7));
+    border-bottom: 4px solid rgba(150,150,150,0.5);
 }
 
