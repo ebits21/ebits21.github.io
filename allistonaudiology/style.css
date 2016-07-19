@@ -292,9 +292,10 @@ h3:first-of-type:before{
 }
 
 .aiddesc{
-    width: 508px;
+    width: 488px;
     font-size: 20px;
     line-height: 120%;
     margin-bottom: 0;
+    padding: 0 10px;
 }
 
