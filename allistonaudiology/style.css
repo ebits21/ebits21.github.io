@@ -287,6 +287,10 @@ h3:first-of-type:before{
     vertical-align: top;
 }
 
+.aid{
+    width: 90px;
+}
+
 .aiddesc{
     width: 508px;
     font-size: 20px;
