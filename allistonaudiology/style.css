@@ -280,11 +280,13 @@ h3:first-of-type:before{
 
 .aidimage, .aiddesc{
     display: inline-block;
+    vertical-align: top;
 }
 
 .aiddesc{
     width: 508px;
     font-size: 20px;
     line-height: 100%;
+    margin-bottom: 0;
 }
 
