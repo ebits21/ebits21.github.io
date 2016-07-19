@@ -277,3 +277,7 @@ h3:first-of-type:before{
     margin-top: 20px;
     width: 100%;
 }
+
+.aidimage, .aiddesc{
+    display: inline-block;
+}
