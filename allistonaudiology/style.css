@@ -214,6 +214,10 @@ dd{
     margin-top: 50px;
 }
 
+.noborder{
+    border: none;
+}
+
 /*******************Navigation elements****************/
 .ipadnav{
     width: 980px;
