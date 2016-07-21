@@ -131,19 +131,23 @@ blockquote {
     width: 85%;
 }
 
-#img_right, #img_left, #map{
+.img_right, .img_left, #map{
     border: 1px solid #CCC;
     padding: 10px;
 }
 
-#img_right {
+.img_right {
     margin: 0 10px 0 40px;
     float: right;
 }
 
-#img_left {
+.img_left {
     margin: 0 40px 0 10px;
     float: left;
+}
+
+.noborder {
+    border: none;
 }
 
 /******************FAQ Page********************/
@@ -194,10 +198,6 @@ dd{
     vertical-align: top;
 }
 
-.aid{
-    width: 90px;
-}
-
 .aiddesc{
     width: 468px;
     font-size: 20px;
@@ -214,25 +214,21 @@ dd{
     margin-top: 50px;
 }
 
-.noborder{
-    border: none;
-}
-
 /*******************Navigation elements****************/
-.ipadnav{
+#ipadnav{
     width: 980px;
     padding: 20px 0px 50px 0px;
     overflow: auto;
     border: none;
 }
 
-.ipadnav ul {
+#ipadnav ul {
     list-style: none;
     overflow: auto;
     border: none;
 }
 
-.ipadnav a, .back a{
+#ipadnav a, #back a{
     background-color: rgb(130,19,35);
     background: linear-gradient(rgb(130,19,35),rgb(166,24,45),rgb(130,19,35));
     font: 24px Georgia, "Times New Roman", Times, serif;
@@ -244,7 +240,7 @@ dd{
     text-shadow: 1px 1px 2px #000;
 }
 
-.ipadnav a {
+#ipadnav a {
     width: 216px;
     height: 72px;
     margin: 29px 0px 30px 50px;
@@ -253,7 +249,7 @@ dd{
     box-shadow: 3px 3px 3px #888888;
 }
 
-.back a{
+#back a{
     display: block;
     width: 750px;
     margin: 20px auto;
@@ -267,11 +263,11 @@ body{
     font: 24px 'Roboto',sans-serif;
 }
 
-.header, .ipadnav{
+#header, #ipadnav{
     margin: 0 auto;
 }
 
-.header{
+#header{
     width: 980px;
     height: 165px;
     background-color: transparent;
