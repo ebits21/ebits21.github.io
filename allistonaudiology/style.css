@@ -41,7 +41,12 @@ p, ol>li, article ul>li, dd{
 }
 
 article ul{
-    margin-left: 30px;  
+    margin-bottom: 25px;
+}
+
+article ul>li{
+    padding: 0 0 0 15px;
+    margin: 10px 65px;
 }
 
 ol{
@@ -49,9 +54,9 @@ ol{
 }
 
 ol>li{
-    padding: 0 0 0 60px;
-    margin: 20px 55px;
     font-size: 18px;
+    padding: 0 0 0 60px;
+    margin: 20px 65px;
     /*Create a context to absolutely position the numbers*/
     position: relative;  
     list-style: none;
